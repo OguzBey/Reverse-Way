@@ -9,16 +9,10 @@ section .data
     msg1_len equ $ - msg1
     msg2 db 'İkinci Sayı: '
     msg2_len equ $ - msg2
-    msg3 db 'Sonuç: '
-    msg3_len equ $ - msg3
-    msg4 db '-CARRRRYYYYYY-'
-    msg4_len equ $ - msg4
 
 section .bss
     number1 resb 4
     number2 resb 4
-    char1 resb 2
-    char2 resb 2
     total resb 6
 
 section .text
